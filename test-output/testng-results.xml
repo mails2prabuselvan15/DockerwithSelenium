@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20197" started-at="2020-08-20T07:28:05Z" finished-at="2020-08-20T07:28:25Z">
+    <groups>
+    </groups>
+    <test name="Chrome Test" duration-ms="7736" started-at="2020-08-20T07:28:05Z" finished-at="2020-08-20T07:28:13Z">
+      <class name="dockerDemo.ChromeDemo">
+        <test-method status="PASS" signature="ChromeExecution()[pri:0, instance:dockerDemo.ChromeDemo@2ea6137]" name="ChromeExecution" duration-ms="7721" started-at="2020-08-20T12:58:05Z" finished-at="2020-08-20T12:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChromeExecution -->
+      </class> <!-- dockerDemo.ChromeDemo -->
+    </test> <!-- Chrome Test -->
+    <test name="FireFox Test" duration-ms="12232" started-at="2020-08-20T07:28:13Z" finished-at="2020-08-20T07:28:25Z">
+      <class name="dockerDemo.FFDemo">
+        <test-method status="PASS" signature="FireFoxExecution()[pri:0, instance:dockerDemo.FFDemo@2c34f934]" name="FireFoxExecution" duration-ms="12230" started-at="2020-08-20T12:58:13Z" finished-at="2020-08-20T12:58:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FireFoxExecution -->
+      </class> <!-- dockerDemo.FFDemo -->
+    </test> <!-- FireFox Test -->
+  </suite> <!-- Suite -->
+</testng-results>
